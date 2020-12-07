@@ -6,6 +6,7 @@ use craft\base\Model;
 
 class Settings extends Model
 {
+    public $lang = 'en';
     public $validate = [
         'fromName' => 'required',
         'fromEmail' => 'required|valid_email',
