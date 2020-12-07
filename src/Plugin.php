@@ -30,6 +30,6 @@ class Plugin extends \craft\base\Plugin
         if($this->validator !== null) {
             return $this->validator;
         }
-        return (new GumpValidator((new \GUMP), $this->getSettings()));
+        return (new GumpValidator((new \GUMP($this->settings->lang)), $this->getSettings()));
     }
 }

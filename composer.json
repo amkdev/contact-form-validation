@@ -1,7 +1,7 @@
 {
   "name": "webhubworks/contact-form-validation",
   "description": "Enhanced Validation for Craft CMS Contact Form Plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "craft-plugin",
   "minimum-stability": "dev",
   "keywords": [

@@ -7,13 +7,13 @@ Simple server-side contact form validation for the [Craft CMS 3 Contact Form plu
 Add the package to your ```composer.json``` file
 
 ```
-"isev-ltd/contact-form-validation": "~0.0.1"
+"webhubworks/contact-form-validation": "~0.0.2"
 ```
 
 or install via command line 
 
 ```
-composer require isev-ltd/contact-form-validation:0.0.*
+composer require webhubworks/contact-form-validation:0.0.*
 ```
 
 Go to your Craft CMS 3 admin area **Settings**. Under **System** click **Plugins**.
@@ -32,6 +32,7 @@ Add validate, filter, and readableNames keys to the returned array. Below is an 
 <?php
 
 return [
+    'lang' => 'en',
     'validate' => [
         'fromName' => 'required',
         'fromEmail' => 'required|valid_email',

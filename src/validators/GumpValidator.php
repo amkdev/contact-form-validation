@@ -10,7 +10,6 @@ class GumpValidator {
     public function __construct($validator, $settings) {
         $this->validator = $validator;
         $this->settings = $settings;
-        $this->lang = $settings->lang;
     }
 
     public function check($event) {
